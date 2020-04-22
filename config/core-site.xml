@@ -6,7 +6,7 @@
 	-->
 	<property>
 	   <name>fs.defaultFS</name>
-	   <value>hdfs://testbed-master:9000/</value>
+	   <value>hdfs://hadoop-master:9000/</value>
 	</property>
 	<property>
 	   <name>io.file.buffer.size</name>

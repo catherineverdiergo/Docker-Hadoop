@@ -5,17 +5,17 @@ $HADOOP_HOME/sbin/start-dfs.sh
 $HADOOP_HOME/sbin/start-yarn.sh
 
 echo "RUN jps - Java Virtual Machine Process Status Tool"
-jps -lm
+$JAVA_HOME/bin/jps -lm
 
 echo "Get basic filesystem information and statistics."
-hdfs dfsadmin -report
+$HADOOP_HOME/bin/hdfs dfsadmin -report
 
 echo "SPARK SERVICES"
 $SPARK_HOME/sbin/start-all.sh
 scala -version
 
 echo "RUN jps - Java Virtual Machine Process Status Tool"
-jps -lm
+$JAVA_HOME/bin/jps -lm
 
 set -e
 echo "SPARK TEST"

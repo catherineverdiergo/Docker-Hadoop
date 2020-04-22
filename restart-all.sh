@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # variables
-IMG_NAME="mjaglan/ubuntuhadoop2017"
-HOST_PREFIX="testbed"
+IMG_NAME="ysance/ubuntuhadoopspark"
+HOST_PREFIX="hadoop"
 NETWORK_NAME=$HOST_PREFIX
 
 # if desired, clean up containers
@@ -56,7 +56,7 @@ Secondarynamenode        50090        dfs.secondary.http.address
 HADOOP_MASTER="$HOST_PREFIX"-master
 docker run --name $HADOOP_MASTER -h $HADOOP_MASTER --net=$NETWORK_NAME \
 		-p  8088:8088  -p 50070:50070 -p 50090:50090 \
-		-p  8080:8080 \
+		-p  8080:8080 -p 9870:9870 \
 		-itd "$IMG_NAME"
 
 # see active docker containers
