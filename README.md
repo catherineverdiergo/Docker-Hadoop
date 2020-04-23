@@ -81,7 +81,7 @@ Eclipse Docker Tooling 3.1.0
 
 
 ## Configuration References
-- [Apache Hadoop 2.7.3 docs](https://hadoop.apache.org/docs/r2.7.3/)
+- [Apache Hadoop 3.2.1 docs](https://hadoop.apache.org/docs/r3.2.1/)
 - [core-default.xml](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-common/core-default.xml)
 - [hdfs-default.xml](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-hdfs/hdfs-default.xml)
 - [mapred-default.xml](https://hadoop.apache.org/docs/r2.7.3/hadoop-mapreduce-client/hadoop-mapreduce-client-core/mapred-default.xml)
