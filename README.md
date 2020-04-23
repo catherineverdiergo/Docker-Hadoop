@@ -74,7 +74,7 @@ The [spark-services.sh](scripts/spark-services.sh) is running following commands
 ## Tools
 ```
 Docker version 17.06.0-ce
-Ubuntu Trusty 14.04 Host OS
+Ubuntu Trusty 18.04 Host OS
 Eclipse IDE for Java EE Developers Oxygen (4.7.0)
 Eclipse Docker Tooling 3.1.0
 ```
