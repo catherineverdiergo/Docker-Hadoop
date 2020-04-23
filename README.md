@@ -1,4 +1,4 @@
-# Run Spark 2.0.2 on Hadoop 2.7 inside docker container in Multi-Node Cluster mode
+# Run Spark 2.4.5 on Hadoop 3.2.1 inside docker container in Multi-Node Cluster mode
 
 ## Install Docker CE on Ubuntu
 
