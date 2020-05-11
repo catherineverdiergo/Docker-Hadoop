@@ -2,7 +2,6 @@
 
 ## Install Docker CE on Ubuntu
 
-
 Follow the instructions from [Get Docker CE for Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) page.
 
 
