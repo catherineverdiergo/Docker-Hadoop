@@ -65,5 +65,8 @@ docker ps
 # start multi-node cluster
 docker exec -it $HADOOP_MASTER "/usr/local/hadoop/spark-services.sh"
 
+# install ansible on master
+docker exec -it $HADOOP_MASTER "/install-ansible.sh"
+
 # attach to hadoop master container
 docker attach $HADOOP_MASTER

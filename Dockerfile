@@ -77,7 +77,9 @@ RUN mv /tmp/ssh_config $HOME/.ssh/config \
 
 # Add startup script
 ADD scripts/spark-services.sh $HADOOP_HOME/spark-services.sh
+ADD scripts/install-ansible.sh /install-ansible.sh
 RUN chmod +x $HADOOP_HOME/spark-services.sh
+RUN chmod +x /install-ansible.sh
 
 # set permissions
 RUN chmod 744 -R $HADOOP_HOME/etc/hadoop
